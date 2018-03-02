@@ -31,3 +31,10 @@ Useful snippets and project helpers
 
     git reset HEAD^
     git reset "HEAD^"   # avoid escaping on windows machines
+
+### change branch but keep changes
+
+    git stash save                  # save changes into stash
+    git checkout [develop]          # change to target branch
+    git stash apply                 # apply changes from stash into target branch
+    git stash drop                  # clear the index of the stash
