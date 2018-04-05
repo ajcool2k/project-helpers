@@ -23,6 +23,10 @@ Useful snippets and project helpers
     git pull                        # get latest remote changes
     git merge [feature-branch-xxx]  # pull source into target
 
+### merge file from different branch by interactive merge tool
+
+    git checkout --patch [feature-branch-xxx] path/file.ext
+
 ### remove a branch
 
     git branch -b [feature-branch-xxx]
