@@ -16,6 +16,9 @@ Useful snippets and project helpers
 
     git branch [feature-branch-xxx]
     git checkout [feature-branch-xxx]
+    
+### push new local branch to remote
+    git push -u origin [feature-branch-xxx]
 
 ### merge the branch
 
@@ -42,3 +45,4 @@ Useful snippets and project helpers
     git checkout [develop]          # change to target branch
     git stash apply                 # apply changes from stash into target branch
     git stash drop                  # clear the index of the stash
+    
