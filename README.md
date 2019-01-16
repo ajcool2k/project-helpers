@@ -30,9 +30,9 @@ Useful snippets and project helpers
 
     git checkout --patch [feature-branch-xxx] path/file.ext
 
-### remove a branch
+### remove a local branch
 
-    git branch -b [feature-branch-xxx]
+    git branch -d [feature-branch-xxx]
 
 ### undo last commit but keep changes
 
