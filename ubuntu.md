@@ -9,7 +9,10 @@
     tail -f filename.log              # follow log file
     tail -f /var/log/syslog           # Network logs
 
-
+## Filter
+    apt list | grep 'rhythmbox'       # Match
+    apt list | grep -v 'bionic'       # Inverse match shows all packages that are not from bionic store
+    
 ## Packages
 
     apt list --installed              # Installed user packages
