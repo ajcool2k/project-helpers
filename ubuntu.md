@@ -29,16 +29,3 @@
 
     scp filename.txt user@host:/myPath      # Copy file from local filesystem to target filesystem
     scp -r foldername user@host:/myPath     # Copy folder from local filesystem to target filesystem
-
-# Process management
-
-> Processes can be easily managed by systemd
-
-    sudo nano /lib/systemd/system/myApp.service     # create own service config
-    sudo systemctl daemon-reload                    # system control need to reload service files
-    sudo systemtl enable myApp                      # automatically start myApp service after boot sequence
-    sudo systemctl start myApp                      # manually start myApp service
-    sudo systemctl status myApp                     # show status of myApp service
-    sudo systemctl stop myApp                       # manually stop myApp service
-    sudo systemctl restart myApp                    # manually restart myApp service
-    sudo systemctl disable myApp                    # remove myApp service from auto start
