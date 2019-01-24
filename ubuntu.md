@@ -27,4 +27,5 @@
 
 ## Copy
 
-    scp filename.txt  user@host:/myPath     # Copy from local filesystem to target filesystem
+    scp filename.txt user@host:/myPath     # Copy file from local filesystem to target filesystem
+    scp -r foldername user@host:/myPath     # Copy folder from local filesystem to target filesystem
