@@ -1,4 +1,4 @@
-# project-helpers
+# Project helpers
 Useful snippets and project helpers
 
 ## Table of Contents
