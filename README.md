@@ -46,3 +46,12 @@ Useful snippets and project helpers
     git stash apply                 # apply changes from stash into target branch
     git stash drop                  # clear the index of the stash
     
+### remove sensible data from repository
+
+    git filter-branch --tree-filter 'rm -rf [MY_FILE_OR_FOLRDER]' --prune-empty HEAD        # remove from history
+    echo [MY_FILE_OR_FOLRDER] >> .gitignore                                                 # add to .gitignore
+    git add .gitignore
+    git commit -m 'Removing node_modules from git history'                                  # history update commit
+    git gc                                                                                  # clean up and reduce repository size
+    git push origin master --force                                                          # push changes to master branch
+    
