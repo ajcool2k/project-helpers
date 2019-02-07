@@ -26,6 +26,11 @@
 ## merge file from different branch by interactive merge tool
 
     git checkout --patch [feature-branch-xxx] path/file.ext
+    
+## copy commits from a different branch to the HEAD
+    
+    git checkout [develop]                      # change HEAD to desired branch or commit    
+    git cherry-pick [commitHash] [commitHash]   # pick two commits from a different branch to the HEAD
 
 ## remove a local branch
 
@@ -44,7 +49,8 @@
     git stash drop                  # clear the index of the stash
     
 ## move branch to specific commit
-    git checkout [commit]           # detech HEAD to commit hash
+
+    git checkout [commitHash]       # detech HEAD to commit hash
     git branch -f [develop]         # move branch develop to HEAD
     gut checkout [develop]          # set HEAD back to branch
     
