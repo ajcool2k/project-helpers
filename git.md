@@ -43,6 +43,11 @@
     git stash apply                 # apply changes from stash into target branch
     git stash drop                  # clear the index of the stash
     
+## move branch to specific commit
+    git checkout [commit]           # detech HEAD to commit hash
+    git branch -f [develop]         # move branch develop to HEAD
+    gut checkout [develop]          # set HEAD back to branch
+    
 ## remove sensible data from repository
 
     git filter-branch --tree-filter 'rm -rf [MY_FILE_OR_FOLRDER]' --prune-empty HEAD        # remove from history
