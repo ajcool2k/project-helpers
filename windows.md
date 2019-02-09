@@ -12,3 +12,7 @@ run `cmd` as administrator
     $ exit
     
     
+**Windows 10 Update manual installation**
+
+- download MediaCreationTool
+- install Windows 10 on USB
