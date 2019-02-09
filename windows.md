@@ -1,6 +1,6 @@
 # Windows Utils
 
-**Clean all USB paritions**
+**Clean all USB partitions**
 
 run `cmd` as administrator
 
