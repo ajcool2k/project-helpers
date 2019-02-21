@@ -1,5 +1,9 @@
 # Git
 
+## create local git repository
+
+    git init
+
 ## show active branch and changes
 
     git status
