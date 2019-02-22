@@ -16,3 +16,10 @@ run `cmd` as administrator
 
 - download MediaCreationTool
 - install Windows 10 on USB
+
+
+**Use Resource Monitor to find processes that lock files**
+
+- run resourse monitor as administrator
+- select tab CPU
+- select Associated handles and input filename.ext into textfield
