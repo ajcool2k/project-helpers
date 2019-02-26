@@ -40,6 +40,10 @@
 
     git branch -d [feature-branch-xxx]
 
+## remove all deleted remote branches
+
+    git fetch --prune
+
 ## undo last commit but keep changes
 
     git reset HEAD^
