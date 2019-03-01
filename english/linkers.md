@@ -11,7 +11,7 @@
 
 
 > - [**First**], I went to the supermarket [**and then**] I made dinner.
-> - I have been working on that essay for two weeks**. [Finally**], I finished it.
+> - I have been working on that essay for two weeks. [**Finally**], I finished it.
 
 
 
