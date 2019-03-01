@@ -6,7 +6,7 @@ Useful snippets and project helpers
 
 **Language**
 
-- [Connector (EN)](english/linkers.md)
+- [Linkers and connectors (EN)](english/linkers.md)
 
 **Tech**
 
