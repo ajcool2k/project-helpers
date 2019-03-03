@@ -3,6 +3,7 @@
 ## Linux OS
 
     uname -a                                # print system information
+    neofetch                                # shows information to linux os & dist
 
 ## Debug
 
