@@ -23,3 +23,11 @@ run `cmd` as administrator
 - run resourse monitor as administrator
 - select tab CPU
 - select Associated handles and input filename.ext into textfield
+
+
+**Grep for Windows**
+
+```bash
+# using findstr like grep
+netstat -a -n | findstr 80
+```
