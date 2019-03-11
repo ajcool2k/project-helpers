@@ -25,9 +25,19 @@ run `cmd` as administrator
 - select Associated handles and input filename.ext into textfield
 
 
-**Grep for Windows**
+**Find text liken grep for Windows**
 
 ```bash
 # using findstr like grep
 netstat -a -n | findstr 80
+```
+
+**Find files containing text**
+
+```bash
+# find files recursivly that contain string "foo"
+findstr /s /i /p /m foo *
+
+# shows content matches and line numbers
+findstr /s /i /p /n foo *
 ```
