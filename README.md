@@ -10,8 +10,9 @@ Useful snippets and project helpers
 
 **Tech**
 
-- [Encoding](encoding.md)
-- [Git](git.md)
-- [systemd](systemd.md)    
-- [Ubuntu](ubuntu.md)    
-- [Windows](windows.md)    
+- [Encoding](Encoding.md)
+- [Git](Git.md)
+- [systemd](Systemd.md)
+- [npm](npm.md)
+- [Linux](Linux.md)    
+- [Windows](Windows.md)    

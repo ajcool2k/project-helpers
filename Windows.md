@@ -4,14 +4,14 @@
 
 run `cmd` as administrator
 
+```bash
+$ diskpart
+$ diskpart list
+$ dispark select [number]   # select disk number of the usb
+$ clean
+$ exit
+```
 
-    $ diskpart
-    $ diskpart list
-    $ dispark select [number]   # select disk number of the usb
-    $ clean
-    $ exit
-    
-    
 **Windows 10 Update manual installation**
 
 - download MediaCreationTool
@@ -20,7 +20,7 @@ run `cmd` as administrator
 
 **Use Resource Monitor to find processes that lock files**
 
-- run resourse monitor as administrator
+- run resource monitor as administrator
 - select tab CPU
 - select Associated handles and input filename.ext into textfield
 
