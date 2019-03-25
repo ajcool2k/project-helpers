@@ -98,3 +98,10 @@ git commit -m 'Removing node_modules from history'   # history update commit
 git gc                                               # clean up and reduce repository size
 git push origin master --force                       # push changes to master branch
 ```
+
+**adding a tag to a commit**
+
+```bash
+git tag -a v1.2 [commitHash]            # add tag 1.2 to existing commit
+```
+
