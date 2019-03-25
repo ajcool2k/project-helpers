@@ -44,7 +44,7 @@ docker rm <name|id>                       # removes a process
 
 ### Example running apache
 
-[^ Example-Running-Apache]: Learn Docker in 12 Minutes, by Jake Wright | <https://www.youtube.com/watch?v=YFl2mCHdv24>
+[^ Example-Apache]: Learn Docker in 12 Minutes, by Jake Wright | <https://www.youtube.com/watch?v=YFl2mCHdv24>
 
 1. Describe how the image should be built in the dockerfile
 
@@ -67,5 +67,5 @@ docker run -p 80:80 hello-world           # Run hello-world container with port 
 docker run -p 80:80 -v /myPath/src:/var/www/html/ hello-world
 ```
 
-Ref [^ Example-Running-Apache]
+Ref [^ Example-Apache]
 
