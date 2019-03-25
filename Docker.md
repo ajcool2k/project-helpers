@@ -1,9 +1,5 @@
 # Docker
 
-
-
-[TOC]
-
 ## Why Docker?
 
 Docker is like running an application in a Linux VM but without the Overhead of installing the whole OS
@@ -14,11 +10,11 @@ Docker is like running an application in a Linux VM but without the Overhead of 
 - Easily shareable
 - Containers can easily get replaced, no new VM needed
 
+[^ Compare-Docker-VM]: Comparing Containers and Virtual Machines | https://www.docker.com/resources/what-container
+
 ![docker-vm](./res/docker-vm.png)
 
-[Compare-Docker-VM]: https://www.docker.com/resources/what-container	"Comparing Containers and Virtual Machines"
-
-
+Ref [^ Compare-Docker-VM]
 
 ## Work flow
 
@@ -68,4 +64,8 @@ docker run -p 80:80 hello-world           # Run hello-world container with port 
 ```bash
 docker run -p 80:80 -v /myPath/src:/var/www/html/ hello-world
 ```
+
+[^ Example-Running-Apache]: Learn Docker in 12 Minutes, by Jake Wright | <https://www.youtube.com/watch?v=YFl2mCHdv24>
+
+Ref [^ Example-Running-Apache]
 
