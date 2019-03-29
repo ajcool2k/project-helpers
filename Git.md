@@ -102,6 +102,7 @@ git push origin master --force                       # push changes to master br
 **adding a tag to a commit**
 
 ```bash
-git tag -a v1.2 [commitHash]            # add tag 1.2 to existing commit
+git tag v1.2                            # add tag v1.2 to current branch and commit
+git tag -a v1.2 [commitHash]            # add tag v1.2 to existing commit
 ```
 
