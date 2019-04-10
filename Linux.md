@@ -43,3 +43,15 @@ lprm [id]                               # Cancel print job
 scp filename.txt user@host:/myPath      # Copy file from local filesystem to target fs
 scp -r foldername user@host:/myPath     # Copy folder from local filesystem to target fs
 ```
+
+**Networking**
+
+```bash
+ifconfig								# show network information
+iwconfig								# show wireless information
+ifup [interface]						# activate network interface
+ifdown [interface]						# deactivate network interface
+ping [host]								# show connection details to host
+traceroute [host]						# show routing to host
+```
+
