@@ -47,11 +47,11 @@ scp -r foldername user@host:/myPath     # Copy folder from local filesystem to t
 **Networking**
 
 ```bash
-ifconfig								# show network information
-iwconfig								# show wireless information
-ifup [interface]						# activate network interface
-ifdown [interface]						# deactivate network interface
-ping [host]								# show connection details to host
-traceroute [host]						# show routing to host
+ifconfig                                # show network information
+iwconfig                                # show wireless information
+ifup [interface]                        # activate network interface
+ifdown [interface]                      # deactivate network interface
+ping [host]                             # show connection details to host
+traceroute [host]                       # show routing to host
 ```
 
