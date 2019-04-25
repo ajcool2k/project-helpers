@@ -53,5 +53,16 @@ ifup [interface]						# activate network interface
 ifdown [interface]						# deactivate network interface
 ping [host]								# show connection details to host
 traceroute [host]						# show routing to host
+netstat -tupl							# show activate listening ports
+```
+
+**Processing**
+
+```bash
+[cmd] &									# run command in background
+[cmdA] ; [cmdB]							# run cmdA then cmdB
+[cmdA] | [cmdB]							# run cmdA and use output as input in cmdB
+[cmdA] || [cmdB]						# run cmdA and cmdB when cmdA was not successful
+[cmdA] && [cmdB]						# run cmdA and cmdB when cmdA was successful
 ```
 
