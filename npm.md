@@ -1,5 +1,10 @@
 # NPM
 
+**Using git repositories**
+```bash
+npm install --save "git+https://github.com/ajcool2k/jstypes.git#commit"
+```
+
 **Install packages globally without sudo**
 
 ```bash
