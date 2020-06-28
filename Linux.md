@@ -1,27 +1,31 @@
 # Useful Linux commands
 
-**Linux OS**
+
+
+[TOC]
+
+## Linux OS
 
 ```bash
 uname -a                                # print system information
 neofetch                                # shows information to linux os & dist
 ```
 
-**Debug**
+## Debug
 
 ```bash
 tail -f filename.log                    # follow log file
 tail -f /var/log/syslog                 # Network logs
 ```
 
-**Filter**
+## Filter
 
 ```bash
 apt list | grep 'rhythmbox'             # Match
 apt list | grep -v 'bionic'             # Inverse match shows all packages that are not from bionic store
 ```
 
-**Packages**
+## Packages
 
 ```bash
 apt list --installed                    # Installed user packages
@@ -30,21 +34,21 @@ dpkg --list | grep firefox              # Installed packages from debian install
 ls /var/cache/apt/archives/             # Install cache packages
 ```
 
-**Print**
+## Print
 
 ```bash
 lpq -a                                  # Show all pending print jobs
 lprm [id]                               # Cancel print job
 ```
 
-**Secure Copy**
+## Secure Copy
 
 ```bash
 scp filename.txt user@host:/myPath      # Copy file from local filesystem to target fs
 scp -r foldername user@host:/myPath     # Copy folder from local filesystem to target fs
 ```
 
-**Networking**
+## Networking
 
 ```bash
 ifconfig								# show network information
@@ -56,7 +60,7 @@ traceroute [host]						# show routing to host
 netstat -tupl							# show activate listening ports
 ```
 
-**Processing**
+## Processing
 
 ```bash
 [cmd] &									# run command in background
@@ -66,3 +70,9 @@ netstat -tupl							# show activate listening ports
 [cmdA] && [cmdB]						# run cmdA and cmdB when cmdA was successful
 ```
 
+## Power Consumption
+
+```bash
+sudo powertop							# show current power consumption
+sudo tlp-start							# show current battery status
+```
