@@ -34,6 +34,8 @@ git checkout [feature-branch-xxx]
 **push new local branch to remote**
 
 ```bash
+# make sure the branch is named the same for local remote 
+# might change local branch before by using git branch -m [feature-branch-xxx]
 git push -u origin [feature-branch-xxx]
 ```
 
@@ -47,7 +49,9 @@ git merge [feature-branch-xxx]  # pull source into target
 
 **merge file from different branch by interactive merge tool**
 
-    git checkout --patch [feature-branch-xxx] path/file.ext
+```bash
+git checkout --patch [feature-branch-xxx] path/file.ext
+```
 
 **copy commits from a different branch to the HEAD**
 
