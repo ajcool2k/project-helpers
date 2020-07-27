@@ -1,6 +1,6 @@
 ## Types
 
-**How to add typings from es6 to legacy projects**
+**How to add typings from npm modules to legacy projects**
 
 ```typescript
 // Create index.d.ts in your root
