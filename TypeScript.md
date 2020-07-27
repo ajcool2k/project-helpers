@@ -1,6 +1,6 @@
 ## Types
 
-**How to add typings from npm modules to legacy projects**
+**How to add Intellisense (typings) from a npm module to legacy projects**
 
 ```typescript
 // Create index.d.ts in your root
