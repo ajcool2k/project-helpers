@@ -29,7 +29,11 @@ source ~/.profile
 npm install -g [package-name]
 ```
 
+**Install packages from another registry**
 
+```bash
+npm install --registry=https://registry.npmjs.org/ [package-name]
+```
 
 **Permission for node_modules missing**
 
