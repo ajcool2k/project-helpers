@@ -13,6 +13,12 @@ document.querySelectorAll("div")
 $x("//div")
 ```
 
+**Get parent of a element**
+
+```js
+$x("//span/..")
+```
+
 **Traverse to parent until element is found**
 
 ```js
