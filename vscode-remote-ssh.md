@@ -85,6 +85,11 @@ ssh username@servername
     #Match Group administrators
     #AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
     ```
+  - restart sshd service using powershell
+
+    ```bash
+    restart-service sshd
+    ```
     
 - Install vscode development extension: https://aka.ms/vscode-remote/download/extension
 - Open ssh host `ssh username@servername`
