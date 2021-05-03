@@ -77,6 +77,14 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled Tru
 ```bash
 ssh username@servername
 ```
-
+- (optional) when username at server is admin user
+  - open `C:\ProgramData\ssh\sshd_config`
+  - comment out lines:
+    
+    ```txt
+    #Match Group administrators
+    #AuthorizedKeysFile __PROGRAMDATA__/ssh/administrators_authorized_keys
+    ```
+    
 - Install vscode development extension: https://aka.ms/vscode-remote/download/extension
 - Open ssh host `ssh username@servername`
