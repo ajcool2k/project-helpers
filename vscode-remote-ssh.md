@@ -89,7 +89,7 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled Tru
 ssh username@servername
 ```
 - (optional) when username at server is admin user
-  - open `C:\ProgramData\ssh\sshd_config`
+  - edit `C:\ProgramData\ssh\sshd_config` on Remote/VM
   - comment out lines:
     
     ```txt
